@@ -1,0 +1,52 @@
+.maindiv {
+    background-color: #f0a500; /* Orange background */
+    font-family: Helvetica, Arial, sans-serif;
+    color: #fff; /* White text for contrast */
+    font-family: Futura;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center; /* Aligns items to the right */
+    margin: 20px; /* Adds margin around the search bar */
+}
+
+.search-bar input {
+    width: 100%;
+    max-width: 600px; /* Restricts width */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Futura;
+}
+
+
+.product-gallery {
+    max-width: 1200px;
+    margin: 40px auto;
+}
+.product-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.product-gallery .row {
+    margin-bottom: 20px;
+}
+.product-gallery .col-md-4 {
+    padding: 15px;
+}
+.product-gallery .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.product-gallery .card img {
+    border-radius: 8px;
+}
+.product-gallery .card-title {
+    font-size: 16px;
+    margin: 10px 0;
+}

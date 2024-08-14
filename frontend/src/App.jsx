@@ -1,9 +1,10 @@
 import React from 'react'
 import { Routes,Route } from 'react-router-dom'
-import './styles/App.css'
 import Home from './pages/Home'
-import Search from './pages/Search'
+import Products from './pages/Products'
 import NavBar from './components/NavBar'
+import Trends from "./pages/Trends"
+import TrendBasedProduct from "./pages/TrendBasedProduct"
 
 export default function App() {
   return (
@@ -11,7 +12,10 @@ export default function App() {
         <NavBar />
         <Routes>
             <Route path="/" element={<Home/>}/>
-            <Route path="/search" element={<Search/>}/>
+            <Route path="/products" element={<Products />}/>
+            <Route path="/trends/:trendid" element = {<TrendBasedProduct />}/>
+            <Route path="/trends" element = {<Trends />}/>
+            
         </Routes>
     </div>
   )

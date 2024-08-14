@@ -1,0 +1,23 @@
+.mainContainer {
+    background-color:#007BFF;/* Orange background */
+    height: 100vh;
+    color: #fff; /* White text for contrast */
+    
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center; /* Aligns items to the right */
+    margin: 20px; /* Adds margin around the search bar */
+}
+
+.search-bar input {
+    width: 100%;
+    max-width: 600px; /* Restricts width */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    
+}

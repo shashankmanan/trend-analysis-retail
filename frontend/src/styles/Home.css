@@ -1,8 +1,57 @@
-body {
-    
+.maindiv {
+    margin: 0;
+    padding: 0;
+    /* height: 100vh; */
+    height: 90.80vh;
+    /* font-family: Futura; */
 }
 
-.main {
+
+.container-fluid { 
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    /* font-family: Futura; */
 }
-  
-  
+
+.division {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    flex-direction: column;
+}
+
+.division1 {
+    background-color: #f0a500; /* Light orange color */
+    /* font-family: Futura; */
+}
+
+.division2 {
+    background-color: #007BFF; /* Light blue color */
+    /* font-family: Futura; */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}

@@ -1,0 +1,54 @@
+.maindiv {
+    background-color: #f0a500; /* Orange background */
+    color: #fff; /* White text for contrast */
+    
+}
+
+.search-bar {
+    padding: 30px;
+    display: flex;
+    justify-content: center; /* Aligns items to the right */
+    margin: 20px; /* Adds margin around the search bar */
+}
+
+.search-bar input {
+    width: 100%;
+    max-width: 500px; /* Restricts width */
+    height: 50px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.trending-terms {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    color: #333;
+    
+}
+
+.trending-terms ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+.trending-terms ul li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px; 
+}
+
+
+.trending-terms ul li:hover {
+    background-color: #0056b3;
+    cursor: pointer;    
+}
