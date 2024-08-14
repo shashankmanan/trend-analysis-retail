@@ -20,6 +20,7 @@ def get_all_trends(request):
     }
 
     twitter_trends_url = f"https://twitter-trends.iamrohit.in/india/{city}"
+    google_trends_api = "https://serpapi.com/search?engine=google_trends"
 
     try:
         twitter_request = requests.get(twitter_trends_url,proxies=proxies)
