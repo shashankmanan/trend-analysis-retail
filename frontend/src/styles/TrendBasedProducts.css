@@ -1,8 +1,8 @@
 .maindiv {
     background-color: #f0a500; /* Orange background */
-    font-family: Helvetica, Arial, sans-serif;
+
     color: #fff; /* White text for contrast */
-    font-family: Futura;
+ 
 }
 
 .search-bar {
@@ -19,7 +19,7 @@
 h1 {
     text-align: center;
     margin-top: 20px;
-    font-family: Futura;
+
 }
 
 
