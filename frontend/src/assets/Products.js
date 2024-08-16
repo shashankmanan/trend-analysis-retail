@@ -14,7 +14,7 @@ export let products = [
     { id: 10, name: "Red Fort Keychain", desc: "A keychain featuring a miniature Red Fort.", supplierId: 5, trend: "red-fort-tourist-merchandise", inStock: false },
 
     // Jai Hind (Patriotic merchandise) Products
-    { id: 11, name: "Jai Hind T-Shirt", desc: "A patriotic T-shirt with 'Jai Hind' printed on it.", supplierId: 1, trend: "jai-hind-patriotic-merchandise", inStock: true },
+    { id: 11, name: "Jai Hind T-Shirt", desc: "A patriotic T-shirt with 'Jai Hind' printed on it.", supplierId: 1, trend: "jai-hind-patriotic-merchandise", inStock: false },
     { id: 12, name: "Jai Hind Cap", desc: "A cap with 'Jai Hind' embroidered on it.", supplierId: 2, trend: "jai-hind-patriotic-merchandise", inStock: true },
     { id: 13, name: "Jai Hind Mug", desc: "A ceramic mug with 'Jai Hind' printed on it.", supplierId: 3, trend: "jai-hind-patriotic-merchandise", inStock: false },
     { id: 14, name: "Jai Hind Poster", desc: "A motivational poster with 'Jai Hind' written on it.", supplierId: 4, trend: "jai-hind-patriotic-merchandise", inStock: true },
